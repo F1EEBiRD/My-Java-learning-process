@@ -1,0 +1,18 @@
+package abstractDemo3;
+
+public class Test {
+    public static void main(String[] args) {
+        // 目标：理解抽象类的使用场景之二，模板方法设计模式
+        // 学生和老师都要写一篇作文：《我的爸爸》
+        //          第一段是一样的：我的爸爸是一个好人
+        //          第二段是不一样的：老师和学生各写各的。
+        //          第三段是一样的：我爸爸真好
+
+        Students students = new Students();
+        students.write();
+
+        Teacher teacher = new Teacher();
+        teacher.write();
+
+    }
+}
