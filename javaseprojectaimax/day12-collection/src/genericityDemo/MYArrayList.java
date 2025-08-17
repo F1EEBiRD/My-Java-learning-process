@@ -1,0 +1,28 @@
+package genericityDemo;
+
+import java.util.ArrayList;
+
+//自定义泛型类
+public class MYArrayList<E> {
+
+    private ArrayList list = new ArrayList();
+
+
+
+    boolean add(E e) {
+        list.add(e);
+        return true;
+    }
+
+    public boolean remove(E e) {
+        return list.remove(e);
+
+    }
+
+    @Override
+    public String toString() {
+        return list.toString();
+    }
+
+
+}
