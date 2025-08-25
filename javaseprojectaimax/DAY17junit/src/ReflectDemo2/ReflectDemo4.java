@@ -1,4 +1,4 @@
-package ReflectDemo1;
+package ReflectDemo2;
 
 public class ReflectDemo4 {
     public static void main(String[] args) throws Exception{

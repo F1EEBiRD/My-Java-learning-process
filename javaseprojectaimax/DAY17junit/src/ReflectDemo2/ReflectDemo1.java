@@ -1,4 +1,4 @@
-package ReflectDemo1;
+package ReflectDemo2;
 
 public class ReflectDemo1 {
     public static void main(String[] args)  throws Exception{
@@ -13,7 +13,7 @@ public class ReflectDemo1 {
         System.out.println(c2);
 
         //3.获取类本身：Class.forName("类全路径")
-        Class c3 = Class.forName("ReflectDemo1.Student");
+        Class c3 = Class.forName("ReflectDemo2.Student");
         System.out.println(c3);
 
         System.out.println(c1 == c2);

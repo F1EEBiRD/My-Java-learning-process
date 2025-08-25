@@ -1,4 +1,4 @@
-package ReflectDemo1;
+package ReflectDemo2;
 
 
 import lombok.AllArgsConstructor;

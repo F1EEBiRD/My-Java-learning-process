@@ -1,4 +1,4 @@
-package ReflectDemo1;
+package ReflectDemo2;
 
 import java.io.FileOutputStream;
 import java.io.PrintStream;

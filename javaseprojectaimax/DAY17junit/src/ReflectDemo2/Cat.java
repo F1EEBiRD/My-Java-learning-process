@@ -1,4 +1,4 @@
-package  ReflectDemo1;
+package ReflectDemo2;
 
 public class Cat {
     private String name;
